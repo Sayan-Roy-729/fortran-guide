@@ -25,6 +25,7 @@ program demo2
     integer_result = i/j
     ! print the results
     print *, real_result
-    print *, integer_result
+    print *, integer_result, real_result, p / i
+    print *, p / i
     ! read(*,*) ! because of 64bit os, add this line to stop the output
 end program demo2
